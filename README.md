@@ -1,3 +1,9 @@
+# 💼 Machine_Project: Salary Predictor Web App
+
+A Flask web application that predicts whether a job has a **high salary** based on key job-related features.
+
+---
+
 ## 🚀 Overview
 
 This project leverages machine learning techniques and a user-friendly web interface to classify job postings as offering either a **high salary** or **not high salary**. It integrates end-to-end functionality from data preprocessing to model deployment using Flask.
@@ -16,13 +22,13 @@ This project leverages machine learning techniques and a user-friendly web inter
 
 ## 📥 Input Fields (via Web Form)
 
-| Field | Description | Example |
-| :--- | :--- | :--- |
-| `Rating` | Company rating (float) | 4.2 |
-| `Founded` | Year the company was founded (integer) | 2010 |
-| `Seniority` | Job seniority level | Junior, Senior |
-| `State` | Job location (US state) | CA, TX |
-| `avg_salary` | Average salary (numeric) | 120000 |
+| Field         | Description                            | Example       |
+|---------------|----------------------------------------|---------------|
+| `Rating`      | Company rating (float)                 | 4.2           |
+| `Founded`     | Year the company was founded (integer) | 2010          |
+| `Seniority`   | Job seniority level                    | Junior, Senior|
+| `State`       | Job location (US state)                | CA, TX        |
+| `avg_salary`  | Average salary (numeric)               | 120000        |
 
 ---
 
@@ -57,19 +63,16 @@ SalaryApp/
 
 ## 📈 Model Evaluation
 
-| Model | Accuracy |
-| :--- | :--- |
-| Logistic Regression | ~82% |
-| Random Forest | ~89% ✅ (Best) |
-| SVC | ~84% |
+| Model              | Accuracy |
+|-------------------|----------|
+| Logistic Regression | ~82%    |
+| Random Forest       | ~89% ✅ (Best) |
+| SVC                 | ~84%    |
 
 The **Random Forest Classifier** gave the best performance and was used in deployment.
 
----
-
 ## 🌐 Project voiceover
-https://drive.google.com/drive/folders/1vorFu0YqM2Tky73aAebQHvEt2m4d8Yfk?usp=sharing
-
+https://drive.google.com/file/d/1uSe1RuGSoKRjv5dptKHBhTu5BX_L1aVz/view?usp=sharing
 ---
 
 ## 🌐 How to Run Locally
