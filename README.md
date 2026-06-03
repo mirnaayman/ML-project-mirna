@@ -82,7 +82,7 @@ Follow these step-by-step instructions to set up and run the web application on 
 ### 1. Clone the Repository
 Open your terminal or command prompt and run the following commands sequentially:
 ```bash
-git clone [https://github.com/Machine_Project.git](https://github.com/Machine_Project.git)
+git clone [https://github.com/mirnaayman/ML-project-mirna.git)
 cd Machine_Project
 
 ---
