@@ -77,14 +77,13 @@ https://drive.google.com/file/d/1uSe1RuGSoKRjv5dptKHBhTu5BX_L1aVz/view?usp=shari
 
 ## 🌐 How to Run Locally
 
-```bash
-git clone https://github.com/Machine_Project.git
-cd Machine_Project
-pip install -r requirements.txt
-python app.py
-```
+Follow these step-by-step instructions to set up and run the web application on your local machine:
 
-Then open your browser and go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+### 1. Clone the Repository
+Open your terminal or command prompt and run the following commands sequentially:
+```bash
+git clone [https://github.com/Machine_Project.git](https://github.com/Machine_Project.git)
+cd Machine_Project
 
 ---
 
