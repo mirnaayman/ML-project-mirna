@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Salary Predictor</title></head>
+<body>
+    <h2>Predict if the Job is High Salary</h2>
+    <form action="/predict" method="post">
+        Rating: <input type="text" name="Rating"><br>
+        Founded: <input type="text" name="Founded"><br>
+        Seniority: <input type="text" name="Seniority"><br>
+        State: <input type="text" name="State"><br>
+        Average Salary: <input type="text" name="avg_salary"><br>
+        <input type="submit" value="Predict">
+    </form>
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>
